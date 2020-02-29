@@ -1,4 +1,4 @@
-<!-- <<div id="floating-panel">
+<div id="floating-panel">
     <b>Mode of Travel: </b>
     <select id="mode" (change)="changeTravelMode($event)">
       <option value="DRIVING">Driving</option>
@@ -16,5 +16,5 @@
       <option *ngFor="let item of providerList ;index as i" [value]="i">{{item.fullname}}</option>
   </select>
   </div>
-<div #mapContainer id="map" class="map"></div> -->
-<router-outlet></router-outlet>
+  <div id="right-panel"></div>
+<div #mapContainer id="map" class="map"></div>

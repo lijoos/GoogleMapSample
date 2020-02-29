@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MapDirectionPanelComponent } from './map-direction-panel/map-direction-panel.component';
+import { SimpleMapComponent } from './simple-map/simple-map.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapDirectionPanelComponent,
+    SimpleMapComponent
   ],
   imports: [
     BrowserModule,
